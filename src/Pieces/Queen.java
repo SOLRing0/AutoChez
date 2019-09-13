@@ -6,8 +6,8 @@ public class Queen extends Piece {
 
     MovePattern[] queenmoves = new MovePattern[]{moves.verticalmovement,moves.horizontalmovement,moves.diagonalrightmovement,moves.diagonalleftmovement};
 
-    public Queen(boolean color, boolean alive, int xpos, int ypos) {
-        super(color, alive, xpos, ypos);
+    public Queen(boolean color, boolean alive, String name) {
+        super(color, alive, name);
 
     }
 

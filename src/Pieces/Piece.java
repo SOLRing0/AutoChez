@@ -4,18 +4,16 @@ package Pieces;
 import Rules.CommonMoves;
 
 public class Piece {
-    private boolean color;
-    private int xpos;
-    private int ypos;
-    private boolean alive;
+    public boolean color;
+    public boolean alive;
+    String name;
     boolean available = false;
     CommonMoves moves = new CommonMoves();
 
-    public Piece (boolean color, boolean alive, int xpos, int ypos){
+    public Piece (boolean color, boolean alive, String name){
         this.color = color;
         this.alive = alive;
-        this.xpos = xpos;
-        this.ypos = ypos;
+        this.name = name;
     }
 
     public void setAvailable(boolean available) {
@@ -26,13 +24,6 @@ public class Piece {
         this.alive = alive;
     }
 
-    public void setXpos(int xpos) {
-        this.xpos = xpos;
-    }
-
-    public void setYpos(int ypos) {
-        this.ypos = ypos;
-    }
 }
 
 
