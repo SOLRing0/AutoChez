@@ -9,11 +9,11 @@ public class BoardSpace {
         this.possibleMove = possibleMove;
     }
 
-    public void setOccupied(boolean occupied) {
+    public void setOccupied() {
         this.occupied = occupied;
     }
 
-    public void setPossibleMove(boolean possibleMove) {
+    public void setPossibleMove() {
         this.possibleMove = possibleMove;
     }
 }

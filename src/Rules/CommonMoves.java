@@ -1,25 +1,25 @@
 package Rules;
 
 public class CommonMoves {
-    public MovePattern horizontalmovement = new MovePattern(7, 0, true);
-    public MovePattern verticalmovement = new MovePattern(0, 7, true);
-    public MovePattern diagonalrightmovement = new MovePattern(7, 7, true);
-    public MovePattern diagonalleftmovement = new MovePattern(-7,7, true);
+    public static MovePattern horizontalmovement = new MovePattern(7, 0, true);
+    public static MovePattern verticalmovement = new MovePattern(0, 7, true);
+    public static MovePattern diagonalrightmovement = new MovePattern(7, 7, true);
+    public static MovePattern diagonalleftmovement = new MovePattern(-7,7, true);
 
 
-    public MovePattern getDiagonalleftmovement() {
+    public static MovePattern getDiagonalleftmovement() {
         return diagonalleftmovement;
     }
 
-    public MovePattern getDiagonalrightmovement() {
+    public static MovePattern getDiagonalrightmovement() {
         return diagonalrightmovement;
     }
 
-    public MovePattern getHorizontalmovement() {
+    public static MovePattern getHorizontalmovement() {
         return horizontalmovement;
     }
 
-    public MovePattern getVerticalmovement() {
+    public static MovePattern getVerticalmovement() {
         return verticalmovement;
     }
 }
