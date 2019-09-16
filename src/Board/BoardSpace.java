@@ -4,16 +4,16 @@ public class BoardSpace {
     boolean occupied = false;
     boolean possibleMove = false;
 
-    public BoardSpace(boolean occupation, boolean possibleMove){
-        this.occupied = occupation;
-        this.possibleMove = possibleMove;
-    }
-
-    public void setOccupied() {
+    public BoardSpace(){
         this.occupied = occupied;
+        this.possibleMove = possibleMove;
     }
 
-    public void setPossibleMove() {
-        this.possibleMove = possibleMove;
+    public void setOccupied(boolean state) {
+        this.occupied = state;
+    }
+
+    public void setPossibleMove(boolean state) {
+        this.possibleMove = state;
     }
 }
