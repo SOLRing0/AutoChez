@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Chezz.iml" filepath="$PROJECT_DIR$/Chezz.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/AutoChez.iml" filepath="$PROJECT_DIR$/AutoChez.iml" />
->>>>>>> f749378794b2596524051ffc1d990bbed9b5ee2a
     </modules>
   </component>
 </project>
