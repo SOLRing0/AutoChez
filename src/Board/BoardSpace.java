@@ -5,8 +5,6 @@ public class BoardSpace {
     boolean possibleMove = false;
 
     public BoardSpace(){
-        this.occupied = occupied;
-        this.possibleMove = possibleMove;
     }
 
     public void setOccupied(boolean state) {

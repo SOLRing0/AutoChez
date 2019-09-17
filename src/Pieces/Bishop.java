@@ -11,6 +11,7 @@ public class Bishop extends Piece {
 
     public Bishop(boolean color, boolean alive, String name) {
         super(color, alive, name);
+
     }
 
     public MovePattern[] getBishopmoves() {
