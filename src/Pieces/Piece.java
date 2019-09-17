@@ -3,11 +3,14 @@ package Pieces;
 
 import Rules.CommonMoves;
 
+import java.awt.image.BufferedImage;
+
 public class Piece {
     public boolean color;
     public boolean alive;
     String name;
     boolean available = false;
+    BufferedImage pieceIMG;
     CommonMoves moves = new CommonMoves();
 
     public Piece (boolean color, boolean alive, String name){
