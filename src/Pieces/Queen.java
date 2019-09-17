@@ -4,10 +4,16 @@ import Rules.MovePattern;
 
 public class Queen extends Piece {
 
-    MovePattern[] queenmoves = new MovePattern[]{moves.verticalmovement,moves.horizontalmovement,moves.diagonalrightmovement,moves.diagonalleftmovement};
+    MovePattern[] queenmoves = new MovePattern[]{
+            moves.verticalmovement,
+            moves.horizontalmovement,
+            moves.diagonalrightmovement,
+            moves.diagonalleftmovement};
+
 
     public Queen(boolean color, boolean alive, String name) {
         super(color, alive, name);
+
 
     }
 

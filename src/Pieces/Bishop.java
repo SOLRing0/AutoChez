@@ -2,6 +2,9 @@ package Pieces;
 
 import Rules.MovePattern;
 
+import Rules.CommonMoves;
+
+
 
 public class Bishop extends Piece {
     MovePattern[] bishopmoves = new MovePattern[]{moves.diagonalleftmovement, moves.diagonalrightmovement};

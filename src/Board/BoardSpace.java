@@ -15,5 +15,6 @@ public class BoardSpace {
 
     public void setPossibleMove(boolean state) {
         this.possibleMove = state;
+
     }
 }

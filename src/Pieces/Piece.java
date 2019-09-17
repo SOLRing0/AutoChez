@@ -6,6 +6,7 @@ import Rules.CommonMoves;
 import java.awt.image.BufferedImage;
 
 public class Piece {
+
     public boolean color;
     public boolean alive;
     String name;
@@ -28,5 +29,6 @@ public class Piece {
     }
 
 }
+
 
 
